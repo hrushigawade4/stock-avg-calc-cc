@@ -54,3 +54,41 @@ body {
   color: gray;
   border-top: 1px solid #ccc; /* Subtle border at the top */
 }
+
+.results{
+  color: green
+}
+
+.invalid-input{
+  color: red;
+  font-size: 0.75rem; /* Small font size */
+  display: block;
+  margin-top: 0.5rem;
+}
+
+h1 {
+  font-size: 2rem; /* Large enough for emphasis */
+  font-weight: 600; /* Slightly bold */
+  color: #333; /* Dark gray for readability */
+  /* Center the text */
+  margin: 0.5rem 0; /* Small margin for spacing */
+}
+
+.purchase-container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between the two sections */
+  gap: 1rem; /* Add some space between the sections */
+}
+
+.purchase-section {
+  flex: 1; /* Allow sections to grow equally */
+  padding: 1rem; /* Add padding inside each section */
+  border: 1px solid #ddd; /* Light border for separation */
+  border-radius: 8px; /* Rounded corners for visual appeal */
+  background-color: #f9f9f9; /* Light background color */
+ 
+}
+
+h3 {
+  margin-top: 0; /* Remove top margin for headings */
+}
